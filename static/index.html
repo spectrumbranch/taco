@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="app">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,11 +11,17 @@
   <!-- endinject -->
 </head>
 <body>
-
+  <div ui-view></div>
   <!-- inject:js -->
   <script src="components/angular/angular.js"></script>
   <script src="components/jquery/dist/jquery.js"></script>
+  <script src="components/angular-ui-router/release/angular-ui-router.js"></script>
+  <script src="components/angular-resource/angular-resource.js"></script>
   <script src="components/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="js/identify/identify.module.js"></script>
+  <script src="js/food/food.module.js"></script>
+  <script src="js/config/config.module.js"></script>
+  <script src="js/app.js"></script>
   <!-- endinject -->
 </body>
 </html>
