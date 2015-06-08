@@ -1,0 +1,35 @@
+{
+  "name": "taco",
+  "version": "1.0.0",
+  "description": "An organizational utility for dinner parties",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spectrumbranch/taco.git"
+  },
+  "author": "cbebry",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/spectrumbranch/taco/issues"
+  },
+  "homepage": "https://github.com/spectrumbranch/taco#readme",
+  "dependencies": {
+    "hapi": "^8.6.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-angular-filesort": "^1.1.1",
+    "gulp-filter": "^2.0.2",
+    "gulp-inject": "^1.2.0",
+    "gulp-sass": "^2.0.1",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-watch": "^4.2.4",
+    "main-bower-files": "^2.8.0",
+    "rimraf": "^2.4.0",
+    "run-sequence": "^1.1.0",
+    "stream-series": "^0.1.1"
+  }
+}
